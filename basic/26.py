@@ -11,7 +11,7 @@ pop = [2.519, 13.263, 14.823, 16.383, 17.943, 19.503, 21.063, 22.622,
 # show the graph
 # plt.plot(years, pop) # (x, y)
 
-# constomize the graph
+# customize the graph
 # plt.xlabel('Year')
 # plt.ylabel('Population')
 # plt.title('World Population Projection')
@@ -30,7 +30,7 @@ col = ['red', 'green', 'blue', 'blue', 'yellow', 'black', 'green', 'red', 'red',
        'red', 'red', 'red', 'blue', 'blue', 'blue', 'blue', 'blue', 'red', 'blue', 'blue', 'blue', 'yellow', 'red', 'green', 'blue', 'blue', 'red', 'blue', 'red', 'green', 'black', 'yellow', 'blue', 'blue', 'green', 'red', 'red', 'yellow', 'yellow', 'yellow', 'red', 'green', 'green', 'yellow', 'blue', 'green', 'blue', 'blue', 'red', 'blue', 'green', 'blue', 'red', 'green', 'green', 'blue', 'blue', 'green', 'red', 'blue', 'blue', 'green', 'green', 'red', 'red', 'blue', 'red', 'blue', 'yellow', 'blue', 'green', 'blue', 'green', 'yellow', 'yellow', 'yellow', 'red', 'red', 'red', 'blue', 'blue']
 
 # Scatter plot
-# plot all the points on the graph
+#  all the points on the graph
 plt.scatter(x=gdp_cap, y=life_exp, s=np.array(pop) * 2, c=col, alpha=0.8)
 
 # costume
