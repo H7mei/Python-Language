@@ -28,4 +28,3 @@
 26. [matplotlib](./26.py)
 27. [dictionary](./27.py)
 28. [pandas](./28.py)
-29. [comparison operators](./29.py)
